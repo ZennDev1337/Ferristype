@@ -3,18 +3,16 @@ name = "ferristype"
 version = "0.1.0"
 edition = "2021"
 authors = ["ZennDev <zenndev@protonmail.com>"]
-description = "Comfy terminal based typing test"
+description = "FerrisType is a minimalist typing game where your sole task is to type whatever appears on your terminal screen. Test and improve your typing speed and accuracy as random words and phrases appear, challenging you to type them quickly and correctly. Embrace the simplicity, hone your typing skills, and reach new levels of typing mastery in this immersive terminal-based game."
 readme = "README.md"
 license = "GPL-3.0"
-repository = ""
-homepage = ""
 keywords = ["typing", "game", "type-speed", "type", "tui"]
 categories = ["command-line-utilities","games","command-line-interface"]
 include = [
     "**/*.rs",
     "Cargo.toml",
 ]
-publish = ["ferristype"]
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
