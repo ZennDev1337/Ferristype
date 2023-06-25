@@ -1,8 +1,20 @@
 [package]
-name = "crab_typer"
+name = "ferristype"
 version = "0.1.0"
 edition = "2021"
-
+authors = ["ZennDev <zenndev@protonmail.com>"]
+description = "Comfy terminal based typing test"
+readme = "README.md"
+license = "GPL-3.0"
+repository = ""
+homepage = ""
+keywords = ["typing", "game", "type-speed", "type", "tui"]
+categories = ["command-line-utilities","games","command-line-interface"]
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+publish = ["ferristype"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
