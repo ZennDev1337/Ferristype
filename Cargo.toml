@@ -8,10 +8,7 @@ readme = "README.md"
 license = "GPL-3.0"
 keywords = ["typing", "game", "type-speed", "type", "tui"]
 categories = ["command-line-utilities","games","command-line-interface"]
-include = [
-    "**/*.rs",
-    "Cargo.toml",
-]
+include = ["**/*.rs", "Cargo.toml", "LICSENSE", "README.md"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
