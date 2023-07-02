@@ -1,15 +1,25 @@
 [package]
 name = "ferristype"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
 authors = ["ZennDev <zenndev@protonmail.com>"]
 description = "FerrisType is a minimalist typing game where your sole task is to type whatever appears on your terminal screen. Test and improve your typing speed and accuracy as random words and phrases appear, challenging you to type them quickly and correctly. Embrace the simplicity, hone your typing skills, and reach new levels of typing mastery in this immersive terminal-based game."
 readme = "README.md"
 license = "GPL-3.0"
+repository = "https://github.com/ZennDev1337/ferristype.git"
+homepage = "https://github.com/ZennDev1337/ferristype"
 keywords = ["typing", "game", "type-speed", "type", "tui"]
 categories = ["command-line-utilities","games","command-line-interface"]
-include = ["**/*.rs", "Cargo.toml", "LICENSE", "README.md"]
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+dirs = "5.0.1"
+itertools = "0.11.0"
+rand = "0.8.5"
+rust-embed="6.8.1"
+structopt = { version = "0.3.26", default-features = false }
+serde = { version = "1.0.164", features = ["derive"] }
+serde_json = "1.0.99"
+termion = "2.0.1"
+
+[build-dependencies]
+dirs = "5.0.1"
