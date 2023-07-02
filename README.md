@@ -51,3 +51,5 @@ You can search for additional languages in this repository:
 https://github.com/ZennDev1337/ferristype-language-package
 
 # Special Thanks
+
+-   Monkeytype for the language json files
