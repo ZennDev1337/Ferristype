@@ -24,21 +24,6 @@ impl Statistics {
         for (t, k) in timer.key_timer {
             final_time = t;
             match k {
-                Key::Char(' ') => {
-                    if current_input.is_complete() && current_input.correct {
-                        correct_lines += 1;
-                        match inputs.next() {
-                            Some(n) => current_input = n,
-                            None => break,
-                        }
-                    } else if current_input.is_complete() && !current_input.correct {
-                        incorrect_lines += 1;
-                        match inputs.next() {
-                            Some(n) => current_input = n,
-                            None => break,
-                        }
-                    }
-                }
                 Key::Char('\n') => {
                     if current_input.is_complete() && current_input.correct {
                         correct_lines += 1;
